@@ -1,0 +1,46 @@
+.clients {
+  padding: 94px 0px;
+}
+.clients__titel {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.clients__list {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+.clients__name {
+  width: 170px;
+  height: 92px;
+}
+.clients__logo {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__logo:hover,
+.clients__logo:focus,
+.clients__logo:active {
+  border-color: var(--hero-buton-activ);
+
+  color: var(--hero-buton-activ);
+}
+.clients__svg {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}

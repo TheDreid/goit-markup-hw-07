@@ -1,0 +1,27 @@
+// utils styles
+@import './utils/variables';
+@import './utils/v-hedden';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/header';
+@import './components/logo';
+@import './components/nav';
+@import './components/contacts';
+@import './components/hero';
+@import './components/button';
+@import './components/benefits';
+@import './components/work';
+@import './components/team';
+@import './components/social';
+@import './components/clients';
+@import './components/footer';
+@import './components/footer-spam';
+@import './components/filter';
+@import './components/projects';
+@import './components/backdrop';
+@import './components/modal-form';
+@import './components/checkbox';
