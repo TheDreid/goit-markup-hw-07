@@ -18,12 +18,13 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__item--team:hover,
+  &__item--team:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+  }
 }
-.social__item--team:hover,
-.social__item--team:focus {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-}
+
 .social__link--team {
   fill: currentColor;
 }
@@ -60,11 +61,12 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__link--footer:hover,
+  &__link--footer:focus {
+    background-color: var(--accent-color);
+  }
 }
-.social__link--footer:hover,
-.social__link--footer:focus {
-  background-color: var(--accent-color);
-}
+
 .social__logo--footer {
   fill: currentColor;
 }

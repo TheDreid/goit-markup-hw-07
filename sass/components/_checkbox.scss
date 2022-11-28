@@ -2,12 +2,13 @@
   background-color: var(--accent-color);
   border-color: transparent;
   fill: var(--hero-buton-activ);
+  &__check:focus + &__text span {
+    border-color: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.checkbox__check:focus + .checkbox__text span {
-  border-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .checkbox__text span {
   margin-left: 13px;
   width: 16px;

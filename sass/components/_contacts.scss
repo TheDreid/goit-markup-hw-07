@@ -42,10 +42,11 @@
 .contacts--footer {
   margin-top: 20px;
   font-style: normal;
+  &__item--footer:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
-.contacts__item--footer:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 .contacts__map--footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
